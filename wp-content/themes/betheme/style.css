@@ -1,0 +1,222 @@
+/*
+Theme Name: Betheme
+Author: Muffin group
+Description: The biggest WordPress Theme ever
+Theme URI: http://themes.muffingroup.com/betheme
+Author URI: http://muffingroup.com
+License: Themeforest Split Licence
+License URI: -
+Version: 17.6
+
+All css files are placed in /css/ folder
+*/
+.content-home
+{
+    color: #2e2e2e;
+    font-size: 15px;
+}
+.slogan-session
+{
+    background-color: #E1E1E1;
+    width: 100vw;
+    /*height: 12vw;*/
+    padding: 3%;
+    margin-left: calc(-50vw + 50%)!important;
+}
+.slogan-name > .wpb_wrapper :first-child
+{
+    color: #00457d!important;
+    text-align: center;
+    font-weight: bold;
+}
+.slogan
+{
+    font-weight: bold;
+    color: #3b3b3b!important;
+    font-size: 15px!important;
+}
+.contact_details
+{
+    font-weight: bold;
+    font-size: 15px!important;
+}
+.contact_details >li >a
+{
+    color:  #00457d!important;
+}
+
+.section-videos
+{
+    padding-bottom: 5%;
+}
+#Subheader ul.breadcrumbs li {
+    display: inline-block;
+    color: #1b6d85!important;
+}
+#Subheader ul.breadcrumbs li a {
+    display: inline-block;
+    color: #1b6d85!important;
+}
+
+.subheader-both-center #Subheader .title {
+    color: #1e5799;
+    font-size: 30px;
+}
+
+tr.row-1.odd {
+    background-color: #0a55a0;
+    color: #fff!important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ui-tabs .ui-tabs-nav li a,.accordion .question .title,.faq .question .title,table th{color:#fff!important;}
+
+.dataTables_length, .dataTables_filter,.dataTables_info,.dataTables_paginate
+{
+    display: none;
+}
+.row-hover
+{
+    color: #2e2e2e!important;
+    font-size: 16px;
+}
+.dang-ki-ngay{
+    padding-top: 3%!important;
+}
+.tablepress {
+    border: 1px solid #ddd!important;
+}
+
+#icon-contact
+{
+    color: #e6c13d;
+}
+.wpb-js-composer .vc_tta-color-sky.vc_tta-style-flat .vc_tta-tab.vc_active>a {
+    background-color: #00457d!important;
+    color: #fff!important;
+    font-weight: bold!important;
+    font-size: 15px!important;
+}
+.social > li > a > i
+{
+    font-weight: bold;
+    color: #0a0a0a;
+}
+.footer_copy> .container >.one.column >  .social
+{
+    display: none;
+}
+.copyright
+{
+    color: #b3b3b3;
+}
+.menu-category
+{
+    color: #2e2e2e;
+}
+.vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
+    color: #fff;
+    background-color: #00457d!important;
+    border-radius: 0px!important;
+}
+.vc_custom_heading.vc_gitem-post-data.vc_gitem-post-data-source-post_excerpt {
+    display: none;
+}
+#Footer
+{
+    background-color: #091b27 !important;
+}
+.textwidget > ul > li
+{
+    color: #b1b6ba;
+}
+
+.textwidget > ul > li >a
+{
+    text-decoration: none;
+}
+@media screen and (max-width: 550px){
+    .registration-button.wpb_column.vc_column_container.vc_col-sm-3 {
+        padding-left: 25%;
+    }
+}
+.vc_btn3.vc_btn3-color-primary, .vc_btn3.vc_btn3-color-primary.vc_btn3-style-flat {
+    color: #FFF;
+    background-color: #00457d!important;
+}
+.right-icon
+{
+    padding-top: 18% !important;
+}
+@media screen and (max-width: 767px){
+    .wpb_text_column.wpb_content_element.call-now.right-icon {
+        display: none;
+    }
+}
+input.wpcf7-form-control.wpcf7-submit.button_full_width {
+    background-color: #00457d!important;
+    color: #FFF;
+    font-weight: bold;
+}
+.post-head,.post-footer,.date_label
+{
+    display: none;
+}
+
+.post-title > .entry-title > a{
+    font-size: 20px;
+    color: #9f041b;
+}
+.image_frame
+{
+    border-color: #fff!important;
+}
+.post-excerpt
+{
+    color: #454546!important;
+}
+
+img.scale-with-grid.wp-post-image {
+    width: 100%;
+}
+.post-title > .entry-title > a:hover
+{
+    color: #9f2b1e;
+}
+a.button.button_left.button_js.kill_the_icon {
+    display: none;
+}
+.section-related-adjustment > h4 {
+    color: #9f2b1e;
+}
+
+/*.image_frame.scale-with-grid {*/
+    /*display: none!important;*/
+/*}*/
+
+.column.one.post-nav {
+    display: none;
+}
+
+span.vcard.author.post-author, .category.meta-categories, .category.mata-tags, .st_twitter_vcount, .st_pinterest_vcount,.share_wrapper {
+    display: none;
+}
+.date > .label
+{
+    display: none;
+}
+.the_content_wrapper
+{
+    color: #2f2f2f;
+}
+.widget-area.clearfix > .widget.widget_text > h3, #categories-3 >h3 ,#search-3 > h3
+{
+    color: #00457d;
+}
+.widget-area.clearfix > .widget.widget_text > .textwidget > p
+{
+    color: #2f2f2f;
+}
+.column.one.single-photo-wrapper.image {
+display: none;
+}
